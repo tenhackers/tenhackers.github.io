@@ -35,7 +35,7 @@
 
     section#faq {
         p#faq-title {
-            font-size: 3em;
+            font-size: 2em;
         }
 
         details {
@@ -51,12 +51,18 @@
         p#tagline {
             font-size: 3em;
         }
+
+        div#plan {
+            padding: 0 140px 50px 140px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
     }
 
-    div#plan {
-        padding: 0 140px 50px 140px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+    section#faq {
+        p#faq-title {
+            font-size: 3em;
+        }
     }
 }
