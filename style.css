@@ -116,9 +116,12 @@ section#faq {
         padding: 10px 20px;
         border-radius: 5px;
         border: 1px solid #333;
-        list-type: none;
+        list-style-type: none;
         display: flex;
         transition: all 0.3s ease;
+    }
+    summary::-webkit-details-marker {
+        display: none;
     }
     summary:hover {
         background-color: #d5eeff;
