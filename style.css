@@ -103,6 +103,10 @@ section#service {
             background-color: #d5eeff;
         }
     }
+
+    p#contact-info {
+        text-align: center;
+    }
 }
 
 section#faq {
