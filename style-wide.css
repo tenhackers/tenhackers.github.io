@@ -1,0 +1,62 @@
+@media only screen and (min-width: 801px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    header {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-top: 0;
+        display: flex;
+    }
+
+    section {
+        width: 60%;
+    }
+
+    section#service {
+        p#tagline {
+            font-size: 2em;
+        }
+
+        div#plan {
+            padding: 0 80px 50px 80px;
+
+            #price {
+                font-size: 2em;
+            }
+        }
+    }
+
+    section#faq {
+        p#faq-title {
+            font-size: 3em;
+        }
+
+        details {
+            div {
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section#service {
+        p#tagline {
+            font-size: 3em;
+        }
+    }
+
+    div#plan {
+        padding: 0 140px 50px 140px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
